@@ -138,7 +138,7 @@ renderer = mujoco.Renderer(model)
 scene_option = mujoco.MjvOption()
 scene_option.flags[mujoco.mjtVisFlag.mjVIS_JOINT] = True
 
-duration = 3.8  # (seconds)
+duration = 10  # (seconds)
 framerate = 60  # (Hz)
 
 frames = []
